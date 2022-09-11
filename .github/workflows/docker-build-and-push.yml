@@ -15,7 +15,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: cocktail-nextjs-repo:${{ github.sha }}
+        image: cocktail-nextjs-repo
         registry: 010130764883.dkr.ecr.us-east-1.amazonaws.com
         dockerfile: frontend/cocktails/Dockerfile
       env:
