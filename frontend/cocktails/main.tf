@@ -15,12 +15,12 @@ resource "aws_ecr_repository" "cocktail_nextjs_repo" {
   name = "cocktail-nextjs-repo"
 }
 
-variable "image_tag" {
-  type = string
-  nullable = false
-}
-
 #######################################################
+
+# variable "image_tag" {
+#   type = string
+#   nullable = false
+# }
 
 # resource "aws_default_vpc" "default_vpc" {
 # }
